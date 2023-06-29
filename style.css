@@ -1,3 +1,14 @@
 body{
     font-family: 'Josefin Sans', sans-serif;
 }
+.container{
+    padding: 1rem 1rem;
+}
+.container-fluid{
+    padding: 0rem 1rem;
+    color: violet;
+}
+.container-centered{
+    max-width: 600px;
+    margin: auto;
+}
