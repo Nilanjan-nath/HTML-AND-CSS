@@ -31,3 +31,17 @@ body{
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
 }
+/* list */
+.list{
+    padding: 0rem 0.5 rem;
+    display: inline;
+    margin: auto;
+}
+.unordered-list-inline{
+    padding:1rem 1rem
+}
+.list-non-bulleted{
+    display: inline;
+    list-style: none;
+    margin: auto;
+}
