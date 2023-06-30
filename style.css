@@ -45,3 +45,23 @@ body{
     list-style: none;
     margin: auto;
 }
+/*navigation*/
+.navigation-bar{
+    background-color: var(--primary-color);
+    padding: 1rem 0.5rem;
+    border-bottom-left-radius: 1rem;
+    
+
+}
+.navigation-bar .link{
+    color: white;
+    
+}
+.navigation-bar div{
+    color:white;
+    font-weight: bold;
+    font-size:large;
+}
+.text-align-right{
+    text-align: right;
+}
