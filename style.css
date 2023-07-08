@@ -1,5 +1,6 @@
 :root{
-    --primary-color: #4c1d95
+    --primary-color: #4c1d95;
+    --grey-color: #6b7280;
 }
 body{
     font-family: 'Josefin Sans', sans-serif;
@@ -64,4 +65,17 @@ body{
 }
 .text-align-right{
     text-align: right;
+}
+.hero{
+    padding: 2rem;
+}
+.hero .hero-image{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+.hero .hero-heading{
+    color: var(--grey-color);
+    text-align: center;
+    padding: 1rem;
 }
