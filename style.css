@@ -1,6 +1,7 @@
 :root{
     --primary-color: #4c1d95;
     --grey-color: #6b7280;
+    --off-white: #f3f4f6;
 }
 body{
     font-family: 'Josefin Sans', sans-serif;
@@ -78,4 +79,27 @@ body{
     color: var(--grey-color);
     text-align: center;
     padding: 1rem;
+}
+/*section*/
+.section .section-header{
+    margin: auto;
+    text-align: center;
+}
+.section-off-white{
+    background-color: var(--off-white);
+   display: block;
+}
+.section-off-white .section-header{
+    
+    text-align: center;
+    color: var(--primary-color);
+}
+.footer{
+    background-color: var(--primary-color);
+    padding: 1rem 1rem;
+    text-align: center;
+    border-top-right-radius: 1rem;
+}
+.footer .link{
+    color: white;
 }
